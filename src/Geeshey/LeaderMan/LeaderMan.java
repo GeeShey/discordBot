@@ -20,7 +20,7 @@ public class LeaderMan {
 	public static void main(String[] args) throws LoginException {
 		
 		jda = new JDABuilder(AccountType.BOT)
-				.setToken("Njk2MzA5NTg4MTk4MTYyNTAy.Xom3Iw.qkYC8tJ_DMXC00wJnErB1XvAUIs")
+				.setToken("Njk2MzA5NTg4MTk4MTYyNTAy.Xo7xVA.XAhmw_mQX6sPrlU2DIipJcxGhVk")
 				.build();
 		jda.getPresence().setStatus(OnlineStatus.ONLINE);
 		jda.getPresence().setGame(Game.watching("Sai code me"));
