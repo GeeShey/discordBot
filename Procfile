@@ -1,0 +1,1 @@
+worker: java -jar target/Users/sudhirnair/Downloads/DiscordBot/DiscordBot_sai.jar
