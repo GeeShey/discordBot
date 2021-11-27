@@ -19,8 +19,9 @@ public class LeaderMan {
 	//main method
 	public static void main(String[] args) throws LoginException {
 		
+		//ENTER DISCORD BOT TOKEN ID HERE
 		jda = new JDABuilder(AccountType.BOT)
-				.setToken("Njk2MzA5NTg4MTk4MTYyNTAy.Xo7xVA.XAhmw_mQX6sPrlU2DIipJcxGhVk")
+				.setToken("ENTER TOKEN ID HERE")
 				.build();
 		jda.getPresence().setStatus(OnlineStatus.ONLINE);
 		jda.getPresence().setGame(Game.watching("Sai code me"));
